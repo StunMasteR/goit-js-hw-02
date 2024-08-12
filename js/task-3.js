@@ -1,6 +1,6 @@
 function checkForSpam(message) {
-    const upperSpam = 'spam'.touppercase();
-    const upperSale = 'sale'.touppercase();
+    const upperSpam = 'spam'.toUpperCase();
+    const upperSale = 'sale'.toUpperCase();
 
 return (
     message.toUpperCase().includes(upperSpam) ||
